@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: todo-app
-        image: godfri
+        image: godfri/todo-app:latest
         ports:
         - containerPort: 8080
         resources:
